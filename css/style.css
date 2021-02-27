@@ -1,6 +1,9 @@
 body {
-    background-color: #332B54;
+    background-color: transparent;
+    background-image: url(/img/put_your_image_here_51.png), url(/img/overlay_29.png);
+    /*background-color: transparent; */
     opacity: 0.5;
+   
    
 }
 
