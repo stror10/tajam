@@ -1,8 +1,8 @@
 body {
-    background-color: transparent;
+    
     background-image: url(/img/put_your_image_here_51.png), url(/img/overlay_29.png);
     /*background-color: transparent; */
-    opacity: 0.5;
+  
    
    
 }
@@ -59,4 +59,20 @@ margin-top: -45px;
 
 .arrow {
     margin-top: 20px;
+}
+
+.btn-learn-more {
+    margin-top: 50px;
+    font-family: HammersmithOne;
+font-size: 16px;
+line-height: 1.2;
+font-weight: 400;
+color: #00e0d0;
+border-color: #00e0d0;
+background-color: transparent;
+padding: 15px;
+}
+
+.circles {
+    margin-top: 125px; 
 }
