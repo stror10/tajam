@@ -1,0 +1,53 @@
+body {
+    background-color: #332B54;
+   
+}
+
+.container {
+    text-align: center;
+}
+
+.h1 {
+    color: white;
+   /* text-align: center; */
+    margin-top: 183px;
+}
+
+.line {
+    
+    margin-top: 25px;
+}
+
+.main-text {
+    color: white;
+  /*  text-align: center; */
+    margin: 25px 208px 0 208px;
+     
+}
+
+
+.href {
+    font-family: Roboto;
+font-size: 13px;
+line-height: 1.2;
+font-weight: 900;
+letter-spacing: 0.025em;
+color: #ffffff;
+margin-right: 30px;
+
+text-decoration: none;
+}
+
+.nav {
+    margin-top: 35px;
+}
+
+.tajam {
+   
+font-family: Roboto;
+font-size: 30px;
+line-height: 1.2;
+font-weight: 100;
+color: #4aa3cc;
+margin-left: 65px;
+}
