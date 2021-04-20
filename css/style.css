@@ -2,6 +2,7 @@ body {
     
     background-image: url(../img/put_your_image_here_51.png) , url(../img/overlay_29.png) ;
     /*background-color: transparent; */
+    background-repeat: no-repeat;
   
    
    
@@ -61,9 +62,7 @@ margin-top: -45px;
     margin-top: 20px;
 }
 
-.btn-learn-more {
-   
-
+.btn-learn-more-agency {
 font-family: HammersmithOne;
 font-size: 16px;
 line-height: 1.2;
@@ -73,14 +72,45 @@ border-color: #00e0d0;
 background-color: transparent;
 padding: 15px;
 margin: 65px auto 207px auto;
-    display: block;
-}
+display: block;
+text-transform: uppercase;
 }
 
+
 .circles {
-    margin-top: 125px; 
+    margin-top: 25px; 
 }
 
 .h1 {
     text-align: center;
 }
+
+.h4 {
+    text-align: left;
+}
+
+.text {
+    text-align: left;
+}
+
+
+
+.our_story {
+    text-align: left;
+}
+
+
+.btn-learn-more-story {
+    font-family: HammersmithOne;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #00e0d0;
+    border-color: #00e0d0;
+    background-color: transparent;
+    padding: 15px;
+    margin-top: 31px;
+    margin-bottom: 70px;
+    display: block;
+    text-transform: uppercase;
+    }
