@@ -1,6 +1,6 @@
 body {
     
-    background-image: url(/img/put_your_image_here_51.png), url(/img/overlay_29.png);
+    background-image: url(../img/put_your_image_here_51.png) , url(../img/overlay_29.png) ;
     /*background-color: transparent; */
   
    
@@ -24,7 +24,7 @@ body {
 
 .main-text {
     color: white;
-  /*  text-align: center; */
+  text-align: center;
     margin: 25px 208px 0 208px;
      
 }
@@ -62,8 +62,9 @@ margin-top: -45px;
 }
 
 .btn-learn-more {
-    margin-top: 50px;
-    font-family: HammersmithOne;
+   
+
+font-family: HammersmithOne;
 font-size: 16px;
 line-height: 1.2;
 font-weight: 400;
@@ -71,8 +72,15 @@ color: #00e0d0;
 border-color: #00e0d0;
 background-color: transparent;
 padding: 15px;
+margin: 65px auto 207px auto;
+    display: block;
+}
 }
 
 .circles {
     margin-top: 125px; 
+}
+
+.h1 {
+    text-align: center;
 }
