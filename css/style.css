@@ -1,6 +1,7 @@
 body {
     
-    background-image: url(../img/put_your_image_here_51.png) , url(../img/overlay_29.png) ;
+    /*background: linear-gradient (url(../img/put_your_image_here_51.png) , url(../img/overlay_29.png) ;*/
+    background: url(../img/overlay_29.png), url(../img/put_your_image_here_51.png);
     /*background-color: transparent; */
     background-repeat: no-repeat;
   
@@ -71,18 +72,27 @@ color: #00e0d0;
 border-color: #00e0d0;
 background-color: transparent;
 padding: 15px;
-margin: 65px auto 207px auto;
+margin: 65px auto 120px auto;
 display: block;
 text-transform: uppercase;
 }
 
 
 .circles {
-    margin-top: 25px; 
+    
+    margin: 0 auto; 
+    width: 34px;
+    height: 10px;
+    display: inline;
 }
 
 .h1 {
     text-align: center;
+}
+
+.line {
+    margin: 0 auto;
+    display: block;
 }
 
 .h4 {
@@ -114,3 +124,16 @@ text-transform: uppercase;
     display: block;
     text-transform: uppercase;
     }
+
+#story-video {
+    background-color: #4aa3cc;
+}
+
+.circle {
+    width: 100px;
+    height: 80px;
+}
+
+.triangle {
+    z-index: 1;
+}
