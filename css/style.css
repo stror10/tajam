@@ -127,13 +127,33 @@ text-transform: uppercase;
 
 #story-video {
     background-color: #4aa3cc;
+    
+    height: 550px;
+    opacity: 0.85;
 }
 
 .circle {
+    margin: 240px 500px;
     width: 100px;
     height: 80px;
+    
 }
 
 .triangle {
+    margin: 260px -570px;
+    width: 50px;
+    height: 35px;
     z-index: 1;
+}
+
+.text-under-video {
+text-align: center; 
+font-family: Roboto;
+font-size: 16px;
+line-height: 1.2;
+font-weight: 900;
+letter-spacing: 0.05em;
+color: #ffffff;
+text-transform: uppercase;
+margin-top: -220px;
 }
