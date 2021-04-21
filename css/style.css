@@ -157,3 +157,11 @@ color: #ffffff;
 text-transform: uppercase;
 margin-top: -220px;
 }
+
+.big-arrow {
+    margin: 0 100px;
+}
+
+#story {
+    margin-top: 70px;
+}
