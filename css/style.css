@@ -63,6 +63,10 @@ margin-top: -45px;
     margin-top: 20px;
 }
 
+#header {
+    margin-bottom: 70px;
+}
+
 .btn-learn-more-agency {
 font-family: HammersmithOne;
 font-size: 16px;
@@ -78,12 +82,34 @@ text-transform: uppercase;
 }
 
 
-.circles {
+.dot1 {
     
-    margin: 0 auto; 
+    margin-left: 575px; 
+    margin-bottom: 70px;
     width: 34px;
     height: 10px;
-    display: inline;
+    display: block;
+}
+
+.dot2 {
+    
+  
+    width: 34px;
+    height: 10px;
+    display: block;
+}
+.dot3 {
+    
+    
+    width: 34px;
+    height: 10px;
+    display: block;
+}
+.dot4 {
+   
+    width: 34px;
+    height: 10px;
+    display: block;
 }
 
 .h1 {
