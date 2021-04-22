@@ -191,3 +191,56 @@ margin-top: -220px;
 #story {
     margin-top: 70px;
 }
+
+/******** expertise ********/
+
+.expertise {
+    height: 755px;
+    display: inline;
+    
+}
+
+.exhead {
+    background-color: rgb(163, 89, 40);
+}
+
+.exp {
+    margin-top: 70px;
+    font-family: PlayfairDisplay;
+font-size: 22px;
+line-height: 1.2;
+font-weight: 700;
+letter-spacing: 0.05em;
+color: #413d4b;
+text-transform: uppercase;
+}
+
+.exp-separator {
+    margin: 0 auto;
+    display: block;
+}
+
+.exp-heading {
+margin-top: 35px;
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 900;
+letter-spacing: 0.05em;
+color: #413d4b;
+}
+
+.exp-text {
+margin-top: 25px;
+opacity: 0.74;
+font-family: Roboto;
+font-size: 14px;
+line-height: 22px;
+font-weight: 300;
+letter-spacing: 0.05em;
+color: #333333;
+}
+
+.exp-img {
+    margin-top: 80px
+}
