@@ -248,3 +248,34 @@ color: #333333;
 .exp-img {
     margin-top: 80px
 }
+
+/******** meet our team ********/
+
+.meet-our-team {
+    height: 712px;
+}
+
+.btn-we-are-hiring {
+    
+    font-family: HammersmithOne;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #00e0d0;
+    border-color: #00e0d0;
+    background-color: transparent;
+    padding: 15px;
+    margin-top: 31px auto;
+    display: inline;
+    text-transform: uppercase;
+    }
+
+    .meet-heading {
+    font-family: PlayfairDisplay;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #af2525;
+    margin-top: 70px;
+    }
