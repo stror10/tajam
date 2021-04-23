@@ -249,11 +249,21 @@ color: #333333;
     margin-top: 80px
 }
 
+
+
 /******** meet our team ********/
+
+
+
+.meet {
+    background-image: url(../img/overlay_1799.png);
+}
 
 .meet-our-team {
     height: 712px;
 }
+
+
 
 .btn-we-are-hiring {
     
@@ -276,6 +286,42 @@ color: #333333;
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #af2525;
+    color: #ffffff;
     margin-top: 70px;
     }
+
+    .meet-text {
+        font-family: PlayfairDisplay;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 400;
+letter-spacing: 0.075em;
+color: #f9f9f9;
+    }
+
+.meet-separator {
+    width: 50px;
+height: 2px;
+opacity: 0.2;
+background-color: #ffffff;
+}
+
+
+.member-name {
+opacity: 0.87;
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 900;
+letter-spacing: 0.05em;
+color: #ffffff;
+}
+
+.profession {
+opacity: 0.61;
+font-family: Roboto;
+font-size: 13px;
+line-height: 1.2;
+font-weight: 300;
+color: #fafafa;
+}
