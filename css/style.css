@@ -397,7 +397,20 @@ color: #f3f3f3;
 
 /*********** comments ****************/
 
-
+.comments {
+    background: url(../img/overlay_1053.png);
+    min-height: 500px;
+}
+.quotes {
+    margin-top: 70px;
+    opacity: 0.9;
+font-family: PlayfairDisplay;
+font-size: 100px;
+line-height: 22px;
+font-weight: 400;
+letter-spacing: 0.03em;
+color: #ffffff;
+}
 
 
 
