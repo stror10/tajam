@@ -260,7 +260,7 @@ color: #333333;
 }
 
 .meet-our-team {
-    height: 712px;
+    /* height: 712px; */
 }
 
     .meet-heading {
@@ -340,6 +340,7 @@ color: #f3f3f3;
     margin-top: 25px auto;
     display: inline;
     text-transform: uppercase;
+    margin-bottom: 70px;
     }
 
 
@@ -393,6 +394,14 @@ color: #f3f3f3;
     
     
 }
+
+/*********** comments ****************/
+
+
+
+
+
+
 
 
 
