@@ -452,5 +452,96 @@ color: #ffffff;
 
 
 .feedback {
-    height: 500px;
+    min-height: 500px;
+}
+
+.good-news {
+    margin-top: 70px;
+    font-family: PlayfairDisplay;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #413d4b;
+}
+
+.form-name {
+    width: 460px;
+height: 45px;
+opacity: 0.1;
+border: 1px solid #000000;
+    margin-top: 20px;
+    font-family: PlayfairDisplay;
+font-size: 22px;
+line-height: 1.2;
+font-weight: 700;
+letter-spacing: 0.05em;
+color: #413d4b;
+}
+
+.form-email {
+    width: 460px;
+height: 45px;
+opacity: 0.1;
+border: 1px solid #000000;
+    margin-top: 20px;
+    font-family: PlayfairDisplay;
+font-size: 22px;
+line-height: 1.2;
+font-weight: 700;
+letter-spacing: 0.05em;
+color: #413d4b;
+}
+
+.form-subject {
+    width: 460px;
+height: 45px;
+opacity: 0.1;
+border: 1px solid #000000;
+    margin-top: 20px;
+    font-family: PlayfairDisplay;
+font-size: 22px;
+line-height: 1.2;
+font-weight: 700;
+letter-spacing: 0.05em;
+color: #413d4b;
+}
+
+.form-message {
+    width: 460px;
+height: 200px;
+opacity: 0.1;
+border: 1px solid #000000;
+    margin-top: 20px;
+    font-family: PlayfairDisplay;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #413d4b;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    margin-left: 38px;
+   display: block;
+    width: 120px;
+height: 40px;
+border: 1px solid #00e0d0;
+    font-family: HammersmithOne;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #00e0d0; 
+    text-transform: uppercase;
+}
+
+.happy-client {
+    margin-top: 70px;
+    font-family: PlayfairDisplay;
+font-size: 22px;
+line-height: 1.2;
+font-weight: 700;
+letter-spacing: 0.05em;
+color: #413d4b;
 }
