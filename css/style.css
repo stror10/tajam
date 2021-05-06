@@ -545,3 +545,23 @@ font-weight: 700;
 letter-spacing: 0.05em;
 color: #413d4b;
 }
+
+:placeholder  {
+    opacity: 0.5;
+font-family: Roboto;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 300;
+letter-spacing: 0.05em;
+color: #413d4b;
+}
+
+.barneys {
+width: 154px;
+height: 41px;
+}
+
+.gucci {
+width: 140px;
+height: 21px;
+}
