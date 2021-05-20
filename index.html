@@ -31,7 +31,73 @@
     </div>
 </section>
 
-<section id="header">
+<!---------------------- Карусель початок--------------------->
+
+<div class="wrapper">
+    <input checked type=radio name="slider" id="slide1" />
+    <input type=radio name="slider" id="slide2" />
+    <input type=radio name="slider" id="slide3" />
+    <input type=radio name="slider" id="slide4" />
+    <input type=radio name="slider" id="slide5" />
+  
+    <div class="slider-wrapper">
+      <div class=inner>
+        <article>
+          <div class="info top-left">
+            <h3>Malacca</h3></div>
+          <img src="https://farm9.staticflickr.com/8059/28286750501_dcc27b1332_h_d.jpg" />
+        </article>
+  
+        <article>
+          <div class="info bottom-right">
+            <h3>Cameron Highland</h3></div>
+          <img src="https://farm6.staticflickr.com/5812/23394215774_b76cd33a87_h_d.jpg" />
+        </article>
+  
+        <article>
+          <div class="info bottom-left">
+            <h3>New Delhi</h3></div>
+          <img src="https://farm8.staticflickr.com/7455/27879053992_ef3f41c4a0_h_d.jpg" />
+        </article>
+  
+        <article>
+          <div class="info top-right">
+            <h3>Ladakh</h3></div>
+          <img src="https://farm8.staticflickr.com/7367/27980898905_72d106e501_h_d.jpg" />
+        </article>
+  
+        <article>
+          <div class="info bottom-left">
+            <h3>Nubra Valley</h3></div>
+          <img src="https://farm8.staticflickr.com/7356/27980899895_9b6c394fec_h_d.jpg" />
+        </article>
+      </div>
+      <!-- .inner -->
+    </div>
+    <!-- .slider-wrapper -->
+  
+    <div class="slider-prev-next-control">
+      <label for=slide1></label>
+      <label for=slide2></label>
+      <label for=slide3></label>
+      <label for=slide4></label>
+      <label for=slide5></label>
+    </div>
+    <!-- .slider-prev-next-control -->
+  
+    <div class="slider-dot-control">
+      <label for=slide1></label>
+      <label for=slide2></label>
+      <label for=slide3></label>
+      <label for=slide4></label>
+      <label for=slide5></label>
+    </div>
+    <!-- .slider-dot-control -->
+  </div>
+<!---------------------- Карусель кінець --------------------->
+
+
+<header>
    <h1 class='h1'>We Are Awesome Creative Agency</h1>
    <img class='line' src="img/separator_66.png" alt="">
    <p class='main-text'>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
@@ -42,11 +108,14 @@
         <img src="img/dot_1329.png" alt="" class="dot3">
         <img src="img/dot_1329.png" alt="" class="dot4">
     </div>
-</section>
+    
+</header>
+
+
 
 <section id="story">
-    <div class="container">
-        <div class="row col-sm-12">
+    
+        <div class="row">
             <div class="col-md-5"><img src="img/replace_with_your_logo_79.png" alt="" class="big-arrow"></div>
             <div class='col-md-7 our_story'>
                 <h4 class="h4">OUR STORY</h4>
@@ -55,23 +124,21 @@
                     Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                 <button class="btn-learn-more-story">learn more</button></div>    
         </div>
-    </div>
+    
 </section>
 
 <section id="story-video">
-        <div class="container">
-            <div class="row col-sm-12">
+        
                 <img src="img/outline_835.png" alt="" class="circle">
                 <img src="img/play_266.png" alt="" class="triangle">
                 <p class="text-under-video">watch our story</p>
-            </div>
-        </div>
+                  
 </section>
 
 <section class="expertise">
-    <div class="exhead">    
+      
         <div class="container">
-            <div class="col-sm-12 ">
+            <div class="col-sm-12">
                 <div class="row">
                     <p class="exp">expertise</p>
                     <p>Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
@@ -113,14 +180,14 @@
                 </div>
             </div>
         </div>
-    <div>
+    
 </section>
 
 <section class="meet-our-team">
-        <div class="col-sm-12 meet">
+    <div class="col-sm-12 meet">
         <div class="container">
             <div class="col-sm-12">
-            <div class="row">
+                <div class="row">
                 <h4 class="meet-heading">MEET OUR AMAZING TEAM</h4>
                 <p class="meet-text">Lorem ipsum dolor sit amet proin gravida nibh vel velit</p>
                 <img src="img/separator_300.png" alt="" class="meet-separator"> 
@@ -149,43 +216,43 @@
             <button class="btn-we-are-hiring">WE ARE HIRING</button>
             </div>
         </div>
-        </div>
-    </section>
+    </div>
+</section>
 
 <section class="our-works">
-        <!-- <div class="container"> 
-         <div class="col-sm-12"> --> 
-            <div class="row"> 
-             <div class="col-sm-6">
+            <div class="container"> 
+                <div class="col-md-12">
+                    <div class="row"> 
+                    <div class="col-md-6">
                  <h4 class="work-heading">our works</h4>
-             </div>
-             <div class="col-sm-6">
+                    </div>
+                    <div class="col-md-6">
                  <p class="dribbble see-all-projects">See All Project in dribbble</p>
                  <img src="img/right154_1323.png" alt="" class="arrow-right see-all-projects">
-             </div>   
+                    </div>   
+                    </div>
+                    <div class="row">
+                    <div class="col-md-2"><img src="img/put_your_image_here_1860.png" alt="" class="works-first-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1861.png" alt="" class="works-first-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1866.png" alt="" class="works-first-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1869.png" alt="" class="works-first-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1875.png" alt="" class="works-first-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1874.png" alt="" class="works-first-row"></div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-2"><img src="img/put_your_image_here_1878.png" alt="" class="works-second-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1881.png" alt="" class="works-second-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_943.png" alt="" class="works-second-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1888.png" alt="" class="works-second-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1889.png" alt="" class="works-second-row"></div>
+                    <div class="col-md-2"><img src="img/put_your_image_here_1890.png" alt="" class="works-second-row"></div> 
+                    </div>
+                    <div class="row">
+                    <button class="btn-load-more">load more</button>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-sm-2"><img src="img/put_your_image_here_1860.png" alt="" class="works-first-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_1861.png" alt="" class="works-first-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_1866.png" alt="" class="works-first-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_1869.png" alt="" class="works-first-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_1875.png" alt="" class="works-first-row"></div>
-                <div class="col-sm-2"> <img src="img/put_your_image_here_1874.png" alt="" class="works-first-row"></div>
-            </div>
-            <div class="row">
-                <div class="col-sm-2"><img src="img/put_your_image_here_1878.png" alt="" class="works-second-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_1881.png" alt="" class="works-second-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_943.png" alt="" class="works-second-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_1888.png" alt="" class="works-second-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_1889.png" alt="" class="works-second-row"></div>
-                <div class="col-sm-2"><img src="img/put_your_image_here_1890.png" alt="" class="works-second-row"></div> 
-            </div>
-            <div class="row">
-                <button class="btn-load-more">load more</button>
-            </div>
-        </div>
-     
-    </section>
+</section>
 
 <section class="comments">
         <div class="commentars">        
@@ -210,9 +277,9 @@
     </div>
     </section>
 
-    <section class="feedback">
+<section class="feedback">
         <div class="container">
-            <div class="row col-sm-12">
+            <div class="row col-sm-12"> 
              <div class="col-sm-6">
                 <p class="good-news">GIVE US A GOOD NEWS</p> 
                 <input type="text" placeholder="Name" class="form-name">
@@ -240,30 +307,58 @@
                     </div>
                 </div>
                  <div class="row">
-                 
+                 <div class="col-md-6 calvin-klein">
                     <img class="firms calvin-klein" src="img/calvin_klein_logo.svg_1500.png" alt="">
-                 
-                    <img class="firms" src="img/1280px-logo_nike.svg_1611.png" alt="">
+                </div>
+                <div class="col-md-6 nike">
+                    <img class="firms nike" src="img/1280px-logo_nike.svg_1611.png" alt="">
+                </div>
                  </div>
                  <div class="row">
-                 <img class="firms" src="img/converse_logo.svg_1612.png" alt="">
+                 <div class="col-md-6"> 
+                    <img class="firms" src="img/converse_logo.svg_1612.png" alt="">
+                </div> 
+                <div class="col-md-6">
                  <img class="firms" src="img/puma_logo.svg_1613.png" alt="">
+                </div>
                  </div>
                  <div class="row">
+                     <div class="col-md-6 levis">
                  <img class="firms" src="img/1280px-levi's_logo.svg_1636.png" alt="">
+                </div>
+                <div class="col-md-6 billabong">
                  <img class="firms" src="img/billabong.svg_1637.png" alt="">
+                </div>
                  </div>
              </div>   
             </div>
         </div>
-    </section>
+</section>
 
-    <section class="footer">
+<footer>
         <div class="container">
-            <div class="row col-sm-12">
-                
+            <div class="row">
+                <div class="col-md-4"></div>
+                <h3 class="col-md-4">OUR STUDIO</h3>
+                <h3 class="col-md-4">STAY IN TOUCH</h3>  
+            </div>
+            <div class="row">
+                <p class="col-md-4"></p>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div> 
+            
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="">HELP</a>
+                    <a href="">TERMS & CONDITION</a>
+                    <a href="">PRIVACY</a>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">Copyright © 2015 - Tajem Creative</div> 
             </div>
         </div>
-    </section>
+</footer>
+
 </body>
 </html>
