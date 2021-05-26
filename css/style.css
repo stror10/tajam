@@ -41,7 +41,7 @@ text-decoration: none;
 }
 
 .nav {
-    margin-top: 35px;
+margin-top: 35px;
 }
 
 .tajam { 
@@ -55,18 +55,18 @@ margin-top: 0px;
 }
 
 .arrow {
-   margin-top: 25px; 
+margin-top: 25px; 
 }
 
 #header {
-    margin-bottom: 100px;
+margin-bottom: 100px;
 }
 
 
 /*********************** Carousel ************************/
 
 .fotorama {
-    margin-top: -60px;
+margin-top: -60px;
 }
 
 
@@ -90,20 +90,20 @@ text-transform: uppercase;
 
 
 .h1 {
-    text-align: center;
+text-align: center;
 }
 
 .line {
-    margin: 0 auto;
-    display: block;
+margin: 0 auto;
+display: block;
 }
 
 .h4 {
-    text-align: left;
+text-align: left;
 }
 
 .text {
-    text-align: left;
+text-align: left;
 }
 
 
