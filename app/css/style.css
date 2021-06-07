@@ -1,14 +1,20 @@
 body {
     
-    /*background: linear-gradient (url(../img/put_your_image_here_51.png) , url(../img/overlay_29.png) ;*/
-    background: url(../img/overlay_29.png), url(../img/put_your_image_here_51.png);
-    /*background-color: transparent; */
-    background-repeat: no-repeat;   
+   background: url(../img/header/header_background.jpg) no-repeat;
+  
 }
 
 .container {
     text-align: center;
 }
+
+/* .header {
+    background: url(../img/header/header_background.jpg) no-repeat cover;  
+}
+
+.fotorama {
+    background: url(../img/header/header_background.jpg) no-repeat cover;
+} */
 
 .h1 {
     color: white;
@@ -29,14 +35,13 @@ body {
 
 
 .href {
-    font-family: Roboto;
+font-family: Roboto;
 font-size: 13px;
 line-height: 1.2;
 font-weight: 900;
 letter-spacing: 0.025em;
 color: #ffffff;
 margin-right: 30px;
-
 text-decoration: none;
 }
 
