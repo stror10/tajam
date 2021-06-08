@@ -229,19 +229,21 @@ color: #333333;
 /******** meet our team ********/
 
 
-
 .meet {
-    background-image: url(../img/overlay_1799.png);
-}
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+} 
+
 
 .meet-our-team {
     /* height: 712px; */
-    
+    background-image: url(../img/overlay_1799.png);
 }
 
 
 
-    .meet-heading {
+.meet-heading {
     font-family: PlayfairDisplay;
     font-size: 22px;
     line-height: 1.2;
@@ -251,8 +253,8 @@ color: #333333;
     margin-top: 70px;
     }
 
-    .meet-text {
-        font-family: PlayfairDisplay;
+.meet-text {
+font-family: PlayfairDisplay;
 font-size: 14px;
 line-height: 1.2;
 font-weight: 400;
@@ -261,7 +263,7 @@ color: #f9f9f9;
     }
 
 .meet-separator {
-    width: 50px;
+width: 50px;
 height: 2px;
 opacity: 0.2;
 background-color: #ffffff;
@@ -456,12 +458,12 @@ color: #ffffff;
 }
 
 .form-name {
-    width: 460px;
+width: 460px;
 height: 45px;
 opacity: 0.1;
 border: 1px solid #000000;
-    margin-top: 20px;
-    font-family: PlayfairDisplay;
+margin-top: 20px;
+font-family: PlayfairDisplay;
 font-size: 22px;
 line-height: 1.2;
 font-weight: 700;
@@ -470,12 +472,12 @@ color: #413d4b;
 }
 
 .form-email {
-    width: 460px;
+width: 460px;
 height: 45px;
 opacity: 0.1;
 border: 1px solid #000000;
-    margin-top: 20px;
-    font-family: PlayfairDisplay;
+margin-top: 20px;
+font-family: PlayfairDisplay;
 font-size: 22px;
 line-height: 1.2;
 font-weight: 700;
