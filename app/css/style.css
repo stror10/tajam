@@ -576,6 +576,7 @@ height: 21px;
 .footer {
     background: url(../img/footer/footer-bg.jpg) no-repeat;
    min-height: 400px; 
+   
 }
 
 .footer-links {
@@ -585,14 +586,43 @@ height: 21px;
 
 .footer-headers {
     margin-top: 85px;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.footer-bottoms {
    
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #ffffff;  
 }
 
 
+.footer-row-one {
+text-align: left;
+font-family: Roboto;
+font-size: 14px;
+line-height: 26px;
+font-weight: 300;
+letter-spacing: 0.025em;
+color: #ffffff;
+}
 
-.footer-row {
-    text-align: left;
-    
+.footer-row-two {
+text-align: left;
+font-family: Roboto;
+font-size: 14px;
+line-height: 26px;
+font-weight: 300;
+letter-spacing: 0.025em;
+color: #ffffff;
 }
 
 .footer-arrow {
@@ -603,10 +633,11 @@ height: 21px;
 .footer-tajam {
     margin-top: -45px;
     margin-left: 50px; 
+    color: #079598;
 }
 
 .footer-links {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     text-decoration: none;
     font-family: Roboto;
 font-size: 14px;
@@ -629,3 +660,4 @@ border: 1px solid #fff;
     background-color: rgba (255, 255, 255, 0.3);
     border: none;
 }
+
