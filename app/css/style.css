@@ -190,6 +190,11 @@ color: #413d4b;
 text-transform: uppercase;
 }
 
+.exp-block {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .exp-separator {
     margin: 0 auto;
     display: block;
@@ -345,24 +350,27 @@ color: #f3f3f3;
 }
 
 .works-first-row {
-    display: inline;
-    width: 235px; 
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 213px; 
     height: 200px;
-    margin-top: 70px; 
-    margin-left: 0px;
-   
+    margin: 70px 0 0 0; 
+    
+    
 }
 
-.container {
-    margin-left: -10px;
-}
+
 
 .works-second-row {
-    display: inline;
-    width: 235px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 213px;
     height: 200px;
-    margin-top: 0; 
-    margin-left: 0px;
+    margin: 0; 
+    
+    
 }
 .btn-load-more {
     font-family: HammersmithOne;
@@ -516,6 +524,7 @@ border: 1px solid #000000;
 .btn-submit {
     margin-top: 20px;
     margin-left: 38px;
+    margin-bottom: 70px;
    display: block;
     width: 120px;
 height: 40px;
@@ -539,13 +548,15 @@ color: #413d4b;
 }
 
 input[type="text"]::placeholder  {
-    opacity: 0.5;
+opacity: 0.9;
 font-family: Roboto;
 font-size: 14px;
 line-height: 1.2;
 font-weight: 300;
 letter-spacing: 0.05em;
-color: #4615c2;
+color: #022417;
+padding-left: 20px;
+padding-top: 20px;
 }
 
 .barneys {
@@ -556,6 +567,10 @@ height: 41px;
 .gucci {
 width: 140px;
 height: 21px;
+}
+
+.firms {
+    margin: 20px;
 }
 
 .footer {
@@ -570,8 +585,47 @@ height: 21px;
 
 .footer-headers {
     margin-top: 85px;
+   
 }
 
-.footer-bottoms {
+
+
+.footer-row {
+    text-align: left;
+    
+}
+
+.footer-arrow {
+    
+    margin-top: -10px;
+}
+
+.footer-tajam {
+    margin-top: -45px;
+    margin-left: 50px; 
+}
+
+.footer-links {
     margin-bottom: 70px;
+    text-decoration: none;
+    font-family: Roboto;
+font-size: 14px;
+line-height: 26px;
+font-weight: 300;
+letter-spacing: 0.025em;
+color: #ffffff;
+}
+
+.footer-input {
+    padding: 18px 26px 18px 16px;
+    
+background-color: rgba (255, 255, 255, 0.5);
+border: 1px solid #fff;
+}
+
+.footer-subscribe {
+    margin-top: -15px;
+    padding: 17px 20px;
+    background-color: rgba (255, 255, 255, 0.3);
+    border: none;
 }
