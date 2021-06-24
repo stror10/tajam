@@ -661,3 +661,8 @@ border: 1px solid #fff;
     border: none;
 }
 
+.fotorama {
+    margin-top: 10px;
+    min-height: 600px;
+    max-height: 600px;
+}
