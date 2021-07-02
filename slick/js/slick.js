@@ -2,13 +2,13 @@ $(document).ready(function(){
 	$('.slider').slick({
 		arrows:true,
 		dots:false,
-		slidesToShow:3,
+		slidesToShow:5,
 		autoplay:true,
-		speed:1000,
-		autoplaySpeed:800,
 		centerMode: true,
-		
-		responsive:[
+		centerPadding: '120px',
+		vertical: false,
+		asNavFor: ".comment-slider",
+	/*	responsive:[
 			{
 				breakpoint: 768,
 				settings: {
@@ -21,19 +21,17 @@ $(document).ready(function(){
 					slidesToShow:1
 				}
 			}
-		]
+		] */
 	});
 
 	$('.comment-slider').slick({
-		arrows:true,
+		arrows:false,
 		dots:false,
 		slidesToShow:1,
 		autoplay:true,
-		speed:1000,
-		autoplaySpeed:800,
-		centerMode: true,
-		
-		responsive:[
+		vertical: false,
+		asNavFor: ".slider",
+	/*	responsive:[
 			{
 				breakpoint: 768,
 				settings: {
@@ -46,7 +44,7 @@ $(document).ready(function(){
 					slidesToShow:1
 				}
 			}
-		]
+		] */
 	});
 	
 });

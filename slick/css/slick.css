@@ -107,13 +107,20 @@
 }
 
 .slider__item {
-	padding:15px 25px;
+	padding:0 45px;
+	
 }
 .slider__item img{
-	max-width: 100%;
-	
+	min-width: 100%;
+	min-height: 50px;
+	min-width: 50px;
 }
 .slider__item.slick-center{
 	
+}
+
+.comment-slider {
+	min-width: 1000px;
+	height: 400px;
 }
 
