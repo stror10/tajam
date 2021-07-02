@@ -23,5 +23,32 @@ $(document).ready(function(){
 			}
 		]
 	});
+
+	$('.comment-slider').slick({
+		arrows:true,
+		dots:false,
+		slidesToShow:1,
+		autoplay:true,
+		speed:1000,
+		autoplaySpeed:800,
+		centerMode: true,
+		
+		responsive:[
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow:1
+				}
+			},
+			{
+				breakpoint: 550,
+				settings: {
+					slidesToShow:1
+				}
+			}
+		]
+	});
+	
 });
+
 

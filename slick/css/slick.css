@@ -4,23 +4,26 @@
 }
 
 /* Основные стили */
-
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
 /* Слайдер */
 .slick-slider{
 	min-width: 0;
 	max-width: 500px;
 	min-height: 60px;
-	justify-content: center;
-
+	
 }
 /* Ограничивающая оболочка */
 .slick-list {
 	overflow: hidden;
+	justify-content: center;
 }
 /* Лента слайдов */
 .slick-track{
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 }
 
 /* Слайд */
