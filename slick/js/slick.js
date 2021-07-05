@@ -3,10 +3,10 @@ $(document).ready(function(){
 		arrows:true,
 		dots:false,
 		slidesToShow:5,
-		autoplay:true,
+		slidesToScroll: 2,
 		centerMode: true,
-		centerPadding: '120px',
 		vertical: false,
+		initialSlide: 1,
 		asNavFor: ".comment-slider",
 	/*	responsive:[
 			{
@@ -28,7 +28,6 @@ $(document).ready(function(){
 		arrows:false,
 		dots:false,
 		slidesToShow:1,
-		autoplay:true,
 		vertical: false,
 		asNavFor: ".slider",
 	/*	responsive:[

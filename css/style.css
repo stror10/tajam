@@ -1,3 +1,9 @@
+html {
+  overflow-x:  hidden;
+  
+}
+
+
 body {
   background: url(../img/header/header_background.jpg) no-repeat;
 }
@@ -692,3 +698,7 @@ input[type="text"]::placeholder {
   max-height: 600px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.wrapper {
+  width: 100%;
+}
