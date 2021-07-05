@@ -17,7 +17,7 @@
      Try increasing it to 15px and see what happens. */
   font-size: 10px;
   /* The main font color changes the ICON COLORS as well as the text */
-  color: #251d8f;
+  color: #15c5bc !important;
 }
 
 /* The "Big Play Button" is the play button that shows before the video plays.
@@ -38,7 +38,7 @@
   height: 1.5em;
   width: 3em;
   /* 0.06666em = 2px default */
-  border: 0.06666em solid #251d8f;
+  border: 0.06666em solid #15c5bc !important;
   /* 0.3em = 9px default */
   border-radius: 0.3em;
   /* Align top left. 0.5em = 15px default */
@@ -52,15 +52,15 @@
 .video-js .vjs-big-play-button,
 .video-js .vjs-menu-button .vjs-menu-content {
   /* IE8 - has no alpha support */
-  background-color: #0d2e5f;
+  background-color: #ad12b3;
   /* Opacity: 1.0 = 100%, 0.0 = 0% */
-  background-color: rgba(13, 46, 95, 0.7);
+  background-color: rgba(173, 18, 179, 0.7);
 }
 
 /* Slider - used for Volume bar and Progress bar */
 .video-js .vjs-slider {
-  background-color: #3179e3;
-  background-color: rgba(49, 121, 227, 0.5);
+  background-color: #ed7cf2;
+  background-color: rgba(237, 124, 242, 0.5);
 }
 
 /* The slider bar color is used for the progress bar and the volume bar
@@ -68,15 +68,15 @@
 .video-js .vjs-volume-level,
 .video-js .vjs-play-progress,
 .video-js .vjs-slider-bar {
-  background: #251d8f;
+  background: #15c5bc !important;
 }
 
 /* The main progress bar also has a bar that shows how much has been loaded. */
 .video-js .vjs-load-progress {
   /* For IE8 we'll lighten the color */
-  background: #a2c2f2;
+  background: #fdeffd;
   /* Otherwise we'll rely on stacked opacities */
-  background: rgba(49, 121, 227, 0.5);
+  background: rgba(237, 124, 242, 0.5);
 }
 
 /* The load progress bar also has internal divs that represent
@@ -85,7 +85,7 @@
   /* For IE8 we'll lighten the color */
   background: white;
   /* Otherwise we'll rely on stacked opacities */
-  background: rgba(49, 121, 227, 0.75);
+  background: rgba(237, 124, 242, 0.75);
 }
 
 .vjs-big-play-button {

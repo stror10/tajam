@@ -2,9 +2,13 @@ html {
     overflow-x:  hidden;
     
 }
+.wrapper {
+    width: 100%;
+}
 
 body {
     
+
     background: url(../img/header/header_background.jpg) no-repeat;
 }
 
@@ -507,25 +511,25 @@ a {
 }
 
 .form-name {
-    @include: form-style;
+    @include form-style;
     height: 45px;
 
 }
 
 .form-email {
-    @include: form-style;
+    @include form-style;
     height: 45px;
 
 }
 
 .form-subject {
-    @include: form-style;
+    @include form-style;
     height: 45px;
 
 }
 
 .form-message {
-    @include: form-style;
+    @include form-style;
     height: 200px;
 
 }
